@@ -16,7 +16,7 @@ const generateAction = async (req, res) => {
   You're a fitness expert and coach, with expertise in muscle growth and bodybuilding. You have 15 years of experience of working with thousands of clients, helping them to achieve their fitness goals. 
   Write a gym workout Split (excluding exercises but including muscles trained) for a week, for the mentioned goals and number of training days. 
   You can refer to the following workout splits and modify/mix/change them to your liking: push-pull-legs, push-pull, upper-lower, full body (it varies for more no. of training days to less no. of training days from left to right)
-  If possible, the workout split should be structured such that the bigger muscle groups should have room to be trained atleast.
+  If possible, the workout split should be structured such that the bigger muscle groups should have room to be trained atleast twice a week.
 
   Include cardio: ${req.body.userAnswer}
   
